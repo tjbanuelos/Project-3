@@ -1,0 +1,36 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+
+.legend {
+  background: white;
+  padding: 10px;
+  line-height: 18px;
+  color: #333;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.8;
+}
+
+
+.tariff-label {
+  font-size: 12px;
+  color: black;
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 2px 4px;
+  border-radius: 4px;
+  pointer-events: none; /* So it doesn't block marker clicks */
+  text-align: center;
+}
